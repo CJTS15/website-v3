@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   
   return (
     <footer className="mt-20 pb-12 w-full text-center space-y-2">
-      <div className="text-[11px] font-medium text-zinc-500 uppercase tracking-widest flex items-center justify-center space-x-2">
+      <div className="text-sm font-medium text-zinc-500 uppercase flex items-center justify-center space-x-2">
         <span>Built with ❤️</span>
         <span className="w-1 h-1 rounded-full bg-zinc-700"></span>
         <span>Made by CJ Sabijon</span>

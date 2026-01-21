@@ -29,14 +29,14 @@ const LinkCards: React.FC<LinkCardsProps> = ({ theme }) => {
               <div className="flex items-center space-x-2">
                 <span className="font-semibold text-base flex items-center">
                   {item.label && (
-                    <span className="mr-2 text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded border border-zinc-500/30 text-zinc-500 font-bold">
+                    <span className="mr-2 text-xs uppercase tracking-wider px-1.5 py-0.5 rounded border border-zinc-500/30 text-zinc-500 font-bold">
                       {item.label}
                     </span>
                   )}
                   {item.title}
                 </span>
               </div>
-              <p className={`text-sm ${theme === 'dark' ? 'text-zinc-500' : 'text-zinc-600'}`}>
+              <p className={`text-sm pr-6 ${theme === 'dark' ? 'text-zinc-500' : 'text-zinc-600'}`}>
                 {item.description}
               </p>
             </div>
