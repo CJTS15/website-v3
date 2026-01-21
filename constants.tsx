@@ -5,7 +5,7 @@ import avatarPhoto from '@/public/images/cj-sabijon-profile.webp';
 export const PROFILE_DATA = {
   name: "CJ Sabijon",
   title: "WordPress Developer | CMS Support Specialist",
-  bio: "I am a highly motivated web developer specializing in WordPress, proficient in creating responsive and user-friendly websites. My expertise extends beyond web development, as I am skilled in market research and providing technical support.",
+  bio: "Passionate about crafting seamless digital experiences through WordPress development and CMS support. Dedicated to helping businesses thrive online with tailored solutions and expert guidance. Let's build something amazing together!",
   avatar: avatarPhoto,
 };
 
@@ -28,35 +28,35 @@ export const LINK_ITEMS: LinkItem[] = [
   {
     id: '2',
     title: 'Project: DMD',
-    description: 'Sharing insights on how we built our co-working space and study hub from scratch.',
+    description: 'Sharing insights on how we built our co-working space and study hub from scratch. Planning and designing the space, selecting furniture and equipment, and creating a productive environment for clients.',
     url: 'https://thetechwolfcave.wordpress.com/2025/10/20/project-dmd/',
     label: 'Blog'
   },
   {
     id: '3',
     title: 'Ricing My Mint',
-    description: 'I wrote a blog post about how I customized my Linux Mint setup to improve productivity and aesthetics.',
+    description: 'I wrote a blog post about how I customized my Linux Mint setup to improve productivity and aesthetics. I shared my favorite themes, icons, and extensions that transformed my desktop environment.',
     url: 'https://thetechwolfcave.wordpress.com/2025/05/15/ricing-my-mint/',
     label: 'Blog'
   },
   {
     id: '4',
     title: 'The TechWolf Cave YouTube',
-    description: 'Subscribe to my YouTube channel for unboxing and gaming walkthoughs.',
+    description: 'Subscribe to my YouTube channel for unboxing and gaming walkthroughs. Join me as I explore the latest tech gadgets and share my gaming experiences.',
     url: 'https://youtube.com/@techwolfcave',
     label: 'YouTube'
   },
   {
     id: '5',
     title: 'DMD: Co-Working Space Management System',
-    description: 'A simple management system for our co-working space and study hub.',
+    description: 'A simple management system for our co-working space and study hub. Built with NextJS, TailwindCSS, Shadcn and Supabase for seamless booking and user management.',
     url: 'https://github.com/CJTS15/dmd-hub-management-system',
     label: 'Project'
   },
   {
     id: '6',
     title: 'Anikoji',
-    description: 'A small curated anime/manga directory.',
+    description: 'A small curated anime/manga directory. Built with NextJS, TailwindCSS, and Shadcn for a sleek and user-friendly experience. I am using APIs from AniList and Jikan to fetch anime/manga data.',
     url: 'https://github.com/CJTS15/anikoji',
     label: 'Project'
   },
