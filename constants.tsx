@@ -10,7 +10,7 @@ export const PROFILE_DATA = {
 };
 
 export const SOCIAL_LINKS: SocialLink[] = [
-  { id: 'gdp', icon: 'Google', url: 'https://g.dev/cjsabijon', label: 'GDP' },
+  { id: 'gdp', icon: 'userSearch', url: 'https://g.dev/cjsabijon', label: 'GDP' },
   { id: 'website', icon: 'Globe', url: 'https://cjsabijon.vercel.app/', label: 'Website' },
   { id: 'linkedin', icon: 'Linkedin', url: 'https://www.linkedin.com/in/cjsabijon/', label: 'LinkedIn' },
   { id: 'wordpress', icon: 'Rss', url: 'https://thetechwolfcave.wordpress.com/', label: 'WordPress' },
